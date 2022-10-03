@@ -1,0 +1,76 @@
+:root {
+    --grid-cols: 1;
+    --grid-rows: 1;
+}
+
+.grid-item {
+    border: 0.1px solid rgb(190, 187, 187);
+    border-width: 0.1px;
+}
+
+
+body {
+    background-color: #B22222;
+}
+
+h1 {
+    color: #DAA520;
+    font-family:'Silkscreen', cursive;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 45px;;
+   
+}
+
+.magic {
+    font-size: medium;
+    padding: 10px;
+}
+
+.copy {
+    font-size: 12px;
+}
+
+.container {
+    background-color: #e0dcdc;
+    width: 700px;
+    height: 700px;
+    margin: auto;
+    border-radius:5px;
+    display:grid;
+    
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+    
+}
+
+
+.density {
+    display: flex;
+   justify-content: center;
+   margin-top: 20px;
+   margin-left: 60px;
+   align-items: center;
+   color: #DAA520;
+    font-family:'Silkscreen', cursive;
+}
+
+.small{
+    margin-left: 10px;
+    font-family:'Silkscreen', cursive;
+    border-radius: 20px;
+    
+}
+
+.medium {
+    margin-left: 10px;
+    font-family:'Silkscreen', cursive;
+    border-radius: 20px;
+}
+
+.large {
+    margin-left: 10px;
+    font-family:'Silkscreen', cursive;
+    border-radius: 20px;
+}
