@@ -30,8 +30,17 @@ button{
     border-radius: 20px;
 }
 
+button:hover{
+    background-color: black;
+    color: #e0dcdc;
+    cursor: pointer;
+}
 
-
+button:active{
+    background-color: black;
+    color: #e0dcdc;
+    box-shadow: 09.px #666;
+}
 
 footer {
    text-align: center;
@@ -99,6 +108,10 @@ footer {
 .wheel {
     margin-left: 10px;
     border-radius: 10px;
+}
+
+.wheel:hover{
+    cursor: pointer;
 }
 
 .wipe {
