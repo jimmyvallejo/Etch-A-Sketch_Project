@@ -3,11 +3,11 @@
     --grid-rows: 1;
 }
 
+
 .grid-item {
     border: 0.1px solid rgb(190, 187, 187);
     border-width: 0.1px;
 }
-
 
 body {
     background-color: #B22222;
@@ -23,19 +23,34 @@ h1 {
    
 }
 
+
+button{
+    margin-left: 10px;
+    font-family:'Silkscreen', cursive;
+    border-radius: 20px;
+}
+
+
+
+
+footer {
+   text-align: center;
+   margin-top: 60px;
+    font-family:'Silkscreen', cursive;
+}
+
 .magic {
     font-size: medium;
     padding: 10px;
 }
 
-.copy {
-    font-size: 12px;
-}
+
 
 .container {
+    position: relative;
     background-color: #e0dcdc;
-    width: 700px;
-    height: 700px;
+    width: 600px;
+    height: 550px;
     margin: auto;
     border-radius:5px;
     display:grid;
@@ -50,27 +65,56 @@ h1 {
     display: flex;
    justify-content: center;
    margin-top: 20px;
-   margin-left: 60px;
+   margin-left: -68px;
    align-items: center;
    color: #DAA520;
     font-family:'Silkscreen', cursive;
 }
 
-.small{
-    margin-left: 10px;
+
+
+.colors {
+    display: flex;
+   justify-content: center;
+  margin-left: 30px;
+   align-items: center;
+   color: #DAA520;
     font-family:'Silkscreen', cursive;
-    border-radius: 20px;
-    
 }
 
-.medium {
-    margin-left: 10px;
-    font-family:'Silkscreen', cursive;
-    border-radius: 20px;
+.refresh {
+    display: flex;
+    justify-content: center;
+    margin-left: -68px;
+    align-items: center;
+    color: #DAA520;
+     font-family:'Silkscreen', cursive;
+ }
+
+
+.choose {
+    margin-left: 20px;
 }
 
-.large {
+.wheel {
     margin-left: 10px;
-    font-family:'Silkscreen', cursive;
-    border-radius: 20px;
+    border-radius: 10px;
+}
+
+.wipe {
+    width: 150px;
+    height: 30px;
+}
+
+.github{
+    text-decoration: none;
+}
+
+.github:visited {
+color: black;
+}
+
+.git{
+    width: 20px;
+    height: 20px;
 }
