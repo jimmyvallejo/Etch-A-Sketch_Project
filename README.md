@@ -1,6 +1,6 @@
 # Etch-A-Sketch_Project
 
---Second Vanilla JavaScript and DOM manipulation project.
+-- First JavaScript project 
 
 --I built this project in order to practice my vanilla javascript skills
  but this time with a more advanced GUI.
